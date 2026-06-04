@@ -1,0 +1,292 @@
+{
+  "tool": "mini",
+  "suite": "micro",
+  "skipped_benchmarks": [],
+  "time_seconds": 0.6363,
+  "python_heap_peak_mib": 0.194,
+  "peak_rss_mib": 55.312,
+  "generated_tests": 32,
+  "branch_coverage_percent": 100.0,
+  "benchmarks": [
+    {
+      "benchmark": "threshold",
+      "family": "micro",
+      "scenario": "Линейная цепочка арифметических условий",
+      "generated_tests": 6,
+      "covered_branches": 6,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "x": 0
+          },
+          "result": 0,
+          "path_length": 3
+        },
+        {
+          "inputs": {
+            "x": -6
+          },
+          "result": -1,
+          "path_length": 1
+        },
+        {
+          "inputs": {
+            "x": 7
+          },
+          "result": 2,
+          "path_length": 2
+        },
+        {
+          "inputs": {
+            "x": 21
+          },
+          "result": 3,
+          "path_length": 3
+        },
+        {
+          "inputs": {
+            "x": -5
+          },
+          "result": 0,
+          "path_length": 3
+        },
+        {
+          "inputs": {
+            "x": 8
+          },
+          "result": 0,
+          "path_length": 3
+        }
+      ]
+    },
+    {
+      "benchmark": "pair_relation",
+      "family": "micro",
+      "scenario": "Вложенные ветви и нелинейное целочисленное ограничение",
+      "generated_tests": 6,
+      "covered_branches": 8,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "x": 0,
+            "y": 0
+          },
+          "result": 0,
+          "path_length": 3
+        },
+        {
+          "inputs": {
+            "x": 20,
+            "y": -10
+          },
+          "result": 1,
+          "path_length": 2
+        },
+        {
+          "inputs": {
+            "x": 9,
+            "y": 0
+          },
+          "result": 3,
+          "path_length": 2
+        },
+        {
+          "inputs": {
+            "x": -6,
+            "y": -2
+          },
+          "result": 4,
+          "path_length": 3
+        },
+        {
+          "inputs": {
+            "x": 5,
+            "y": 5
+          },
+          "result": 2,
+          "path_length": 2
+        },
+        {
+          "inputs": {
+            "x": -18,
+            "y": -18
+          },
+          "result": 0,
+          "path_length": 3
+        }
+      ]
+    },
+    {
+      "benchmark": "loop_bucket",
+      "family": "micro",
+      "scenario": "Ограниченный цикл и постусловие после итераций",
+      "generated_tests": 20,
+      "covered_branches": 12,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "x": 0,
+            "y": 0
+          },
+          "result": 0,
+          "path_length": 3
+        },
+        {
+          "inputs": {
+            "x": -1,
+            "y": 0
+          },
+          "result": -1,
+          "path_length": 1
+        },
+        {
+          "inputs": {
+            "x": 0,
+            "y": -1
+          },
+          "result": -1,
+          "path_length": 2
+        },
+        {
+          "inputs": {
+            "x": 1,
+            "y": 0
+          },
+          "result": 0,
+          "path_length": 4
+        },
+        {
+          "inputs": {
+            "x": 1,
+            "y": 1
+          },
+          "result": 2,
+          "path_length": 8
+        },
+        {
+          "inputs": {
+            "x": 2,
+            "y": 1
+          },
+          "result": 2,
+          "path_length": 7
+        },
+        {
+          "inputs": {
+            "x": 1,
+            "y": 3
+          },
+          "result": 2,
+          "path_length": 11
+        },
+        {
+          "inputs": {
+            "x": 3,
+            "y": 1
+          },
+          "result": 2,
+          "path_length": 11
+        },
+        {
+          "inputs": {
+            "x": 1,
+            "y": 2
+          },
+          "result": 2,
+          "path_length": 8
+        },
+        {
+          "inputs": {
+            "x": 2,
+            "y": 3
+          },
+          "result": 2,
+          "path_length": 10
+        },
+        {
+          "inputs": {
+            "x": 1,
+            "y": 5
+          },
+          "result": 2,
+          "path_length": 14
+        },
+        {
+          "inputs": {
+            "x": 4,
+            "y": 1
+          },
+          "result": 2,
+          "path_length": 10
+        },
+        {
+          "inputs": {
+            "x": 4,
+            "y": 3
+          },
+          "result": 2,
+          "path_length": 13
+        },
+        {
+          "inputs": {
+            "x": 3,
+            "y": 3
+          },
+          "result": 2,
+          "path_length": 14
+        },
+        {
+          "inputs": {
+            "x": 1,
+            "y": 4
+          },
+          "result": 2,
+          "path_length": 11
+        },
+        {
+          "inputs": {
+            "x": 2,
+            "y": 5
+          },
+          "result": 2,
+          "path_length": 13
+        },
+        {
+          "inputs": {
+            "x": 1,
+            "y": 7
+          },
+          "result": 1,
+          "path_length": 14
+        },
+        {
+          "inputs": {
+            "x": 5,
+            "y": 1
+          },
+          "result": 2,
+          "path_length": 14
+        },
+        {
+          "inputs": {
+            "x": 3,
+            "y": 2
+          },
+          "result": 2,
+          "path_length": 11
+        },
+        {
+          "inputs": {
+            "x": 5,
+            "y": 3
+          },
+          "result": 1,
+          "path_length": 14
+        }
+      ]
+    }
+  ]
+}

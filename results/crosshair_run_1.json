@@ -1,0 +1,142 @@
+{
+  "tool": "crosshair",
+  "time_seconds": 0.5138,
+  "python_heap_peak_mib": 0.124,
+  "peak_rss_mib": 19.703,
+  "generated_tests": 14,
+  "branch_coverage_percent": 96.15,
+  "benchmarks": [
+    {
+      "benchmark": "threshold",
+      "generated_tests": 4,
+      "covered_branches": 6,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "x": 0
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 7
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 21
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": -6
+          },
+          "result": null,
+          "path_length": null
+        }
+      ]
+    },
+    {
+      "benchmark": "pair_relation",
+      "generated_tests": 5,
+      "covered_branches": 8,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "x": 0,
+            "y": 11
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 6,
+            "y": 4
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 0,
+            "y": 10
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 0,
+            "y": -9
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": -12,
+            "y": -1
+          },
+          "result": null,
+          "path_length": null
+        }
+      ]
+    },
+    {
+      "benchmark": "loop_bucket",
+      "generated_tests": 5,
+      "covered_branches": 11,
+      "branch_coverage": 91.67,
+      "examples": [
+        {
+          "inputs": {
+            "x": 2,
+            "y": 3
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 0,
+            "y": 0
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 1,
+            "y": 7
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": -1,
+            "y": 0
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 0,
+            "y": -1
+          },
+          "result": null,
+          "path_length": null
+        }
+      ]
+    }
+  ]
+}

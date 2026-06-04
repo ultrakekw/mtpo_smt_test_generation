@@ -1,0 +1,343 @@
+{
+  "tool": "pyexz3",
+  "suite": "industrial",
+  "skipped_benchmarks": [],
+  "time_seconds": 0.6854,
+  "python_heap_peak_mib": 1.173,
+  "peak_rss_mib": 65.219,
+  "generated_tests": 38,
+  "branch_coverage_percent": 100.0,
+  "benchmarks": [
+    {
+      "benchmark": "fastapi_status_body",
+      "family": "industrial",
+      "scenario": "FastAPI: допустимость тела ответа для HTTP status code",
+      "generated_tests": 5,
+      "covered_branches": 8,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "status_code": 200
+          },
+          "result": 4,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "status_code": 0
+          },
+          "result": 0,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "status_code": 204
+          },
+          "result": 1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "status_code": 205
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "status_code": 304
+          },
+          "result": 3,
+          "path_length": null
+        }
+      ]
+    },
+    {
+      "benchmark": "flask_load_dotenv",
+      "family": "industrial",
+      "scenario": "Flask: интерпретация флага FLASK_SKIP_DOTENV",
+      "generated_tests": 6,
+      "covered_branches": 6,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "val": "",
+            "default": true
+          },
+          "result": 1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "val": "A",
+            "default": true
+          },
+          "result": 3,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "val": "",
+            "default": false
+          },
+          "result": 0,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "val": "0",
+            "default": true
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "val": "false",
+            "default": true
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "val": "no",
+            "default": true
+          },
+          "result": 2,
+          "path_length": null
+        }
+      ]
+    },
+    {
+      "benchmark": "pip_archive_suffix",
+      "family": "industrial",
+      "scenario": "pip: распознавание архивного имени дистрибутива по суффиксу",
+      "generated_tests": 14,
+      "covered_branches": 10,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "name": ""
+          },
+          "result": -1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": "A"
+          },
+          "result": 0,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".whl"
+          },
+          "result": 1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".zip"
+          },
+          "result": 1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".tar.gz"
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".tgz"
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".tar"
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".tar.bz2"
+          },
+          "result": 3,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".tbz"
+          },
+          "result": 3,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": "H.tar.xz"
+          },
+          "result": 4,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".txz"
+          },
+          "result": 4,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".tlz"
+          },
+          "result": 4,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": "A.tar.lz"
+          },
+          "result": 4,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".tar.lzma"
+          },
+          "result": 4,
+          "path_length": null
+        }
+      ]
+    },
+    {
+      "benchmark": "werkzeug_server_name",
+      "family": "industrial",
+      "scenario": "Werkzeug: stripping standard ports from server names",
+      "generated_tests": 9,
+      "covered_branches": 8,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "scheme": "",
+            "server_name": ""
+          },
+          "result": 0,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "scheme": "http",
+            "server_name": ""
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "scheme": "ws",
+            "server_name": ""
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "scheme": "https",
+            "server_name": ""
+          },
+          "result": 4,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "scheme": "wss",
+            "server_name": ""
+          },
+          "result": 4,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "scheme": "http",
+            "server_name": ":80"
+          },
+          "result": 1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "scheme": "ws",
+            "server_name": ":80"
+          },
+          "result": 1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "scheme": "https",
+            "server_name": ":443"
+          },
+          "result": 3,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "scheme": "wss",
+            "server_name": ":443"
+          },
+          "result": 3,
+          "path_length": null
+        }
+      ]
+    },
+    {
+      "benchmark": "black_numeric_string",
+      "family": "industrial",
+      "scenario": "Black: различение случаев нормализации числовой строки",
+      "generated_tests": 4,
+      "covered_branches": 6,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "text": ""
+          },
+          "result": 0,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "text": "."
+          },
+          "result": 1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "text": "B."
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "text": "B.CA"
+          },
+          "result": 3,
+          "path_length": null
+        }
+      ]
+    }
+  ]
+}

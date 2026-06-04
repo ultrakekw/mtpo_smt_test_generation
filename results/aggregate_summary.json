@@ -1,0 +1,722 @@
+{
+  "mini": {
+    "means": {
+      "time_seconds": 0.5548,
+      "python_heap_peak_mib": 0.191,
+      "peak_rss_mib": 55.6002,
+      "generated_tests": 33,
+      "branch_coverage_percent": 100.0
+    },
+    "stdevs": {
+      "time_seconds": 0.0056,
+      "python_heap_peak_mib": 0.0,
+      "peak_rss_mib": 0.0832,
+      "generated_tests": 0.0,
+      "branch_coverage_percent": 0.0
+    },
+    "benchmarks": [
+      {
+        "benchmark": "threshold",
+        "generated_tests": 6,
+        "covered_branches": 6,
+        "branch_coverage": 100.0,
+        "examples": [
+          {
+            "inputs": {
+              "x": 0
+            },
+            "result": 0,
+            "path_length": 3
+          },
+          {
+            "inputs": {
+              "x": -6
+            },
+            "result": -1,
+            "path_length": 1
+          },
+          {
+            "inputs": {
+              "x": 7
+            },
+            "result": 2,
+            "path_length": 2
+          },
+          {
+            "inputs": {
+              "x": 21
+            },
+            "result": 3,
+            "path_length": 3
+          },
+          {
+            "inputs": {
+              "x": -5
+            },
+            "result": 0,
+            "path_length": 3
+          },
+          {
+            "inputs": {
+              "x": 8
+            },
+            "result": 0,
+            "path_length": 3
+          }
+        ]
+      },
+      {
+        "benchmark": "pair_relation",
+        "generated_tests": 7,
+        "covered_branches": 8,
+        "branch_coverage": 100.0,
+        "examples": [
+          {
+            "inputs": {
+              "x": 0,
+              "y": 0
+            },
+            "result": 0,
+            "path_length": 3
+          },
+          {
+            "inputs": {
+              "x": -38,
+              "y": 48
+            },
+            "result": 2,
+            "path_length": 2
+          },
+          {
+            "inputs": {
+              "x": 9,
+              "y": 0
+            },
+            "result": 3,
+            "path_length": 2
+          },
+          {
+            "inputs": {
+              "x": -4,
+              "y": -3
+            },
+            "result": 4,
+            "path_length": 3
+          },
+          {
+            "inputs": {
+              "x": 6,
+              "y": 4
+            },
+            "result": 1,
+            "path_length": 2
+          },
+          {
+            "inputs": {
+              "x": 31,
+              "y": 42
+            },
+            "result": 0,
+            "path_length": 3
+          },
+          {
+            "inputs": {
+              "x": 5,
+              "y": 5
+            },
+            "result": 2,
+            "path_length": 2
+          }
+        ]
+      },
+      {
+        "benchmark": "loop_bucket",
+        "generated_tests": 20,
+        "covered_branches": 12,
+        "branch_coverage": 100.0,
+        "examples": [
+          {
+            "inputs": {
+              "x": 0,
+              "y": 0
+            },
+            "result": 0,
+            "path_length": 3
+          },
+          {
+            "inputs": {
+              "x": -1,
+              "y": 0
+            },
+            "result": -1,
+            "path_length": 1
+          },
+          {
+            "inputs": {
+              "x": 0,
+              "y": -1
+            },
+            "result": -1,
+            "path_length": 2
+          },
+          {
+            "inputs": {
+              "x": 1,
+              "y": 0
+            },
+            "result": 0,
+            "path_length": 4
+          },
+          {
+            "inputs": {
+              "x": 0,
+              "y": 48
+            },
+            "result": 0,
+            "path_length": 3
+          },
+          {
+            "inputs": {
+              "x": 1,
+              "y": 1
+            },
+            "result": 2,
+            "path_length": 8
+          },
+          {
+            "inputs": {
+              "x": 49,
+              "y": 0
+            },
+            "result": 0,
+            "path_length": 4
+          },
+          {
+            "inputs": {
+              "x": 2,
+              "y": 1
+            },
+            "result": 2,
+            "path_length": 7
+          },
+          {
+            "inputs": {
+              "x": 1,
+              "y": 3
+            },
+            "result": 2,
+            "path_length": 11
+          },
+          {
+            "inputs": {
+              "x": 3,
+              "y": 1
+            },
+            "result": 2,
+            "path_length": 11
+          },
+          {
+            "inputs": {
+              "x": 1,
+              "y": 2
+            },
+            "result": 2,
+            "path_length": 8
+          },
+          {
+            "inputs": {
+              "x": 2,
+              "y": 3
+            },
+            "result": 2,
+            "path_length": 10
+          },
+          {
+            "inputs": {
+              "x": 1,
+              "y": 5
+            },
+            "result": 2,
+            "path_length": 14
+          },
+          {
+            "inputs": {
+              "x": 4,
+              "y": 1
+            },
+            "result": 2,
+            "path_length": 10
+          },
+          {
+            "inputs": {
+              "x": 4,
+              "y": 3
+            },
+            "result": 2,
+            "path_length": 13
+          },
+          {
+            "inputs": {
+              "x": 3,
+              "y": 3
+            },
+            "result": 2,
+            "path_length": 14
+          },
+          {
+            "inputs": {
+              "x": 1,
+              "y": 4
+            },
+            "result": 2,
+            "path_length": 11
+          },
+          {
+            "inputs": {
+              "x": 2,
+              "y": 5
+            },
+            "result": 2,
+            "path_length": 13
+          },
+          {
+            "inputs": {
+              "x": 1,
+              "y": 7
+            },
+            "result": 1,
+            "path_length": 14
+          },
+          {
+            "inputs": {
+              "x": 5,
+              "y": 1
+            },
+            "result": 2,
+            "path_length": 14
+          }
+        ]
+      }
+    ]
+  },
+  "pyexz3": {
+    "means": {
+      "time_seconds": 0.1613,
+      "python_heap_peak_mib": 1.159,
+      "peak_rss_mib": 48.7282,
+      "generated_tests": 29,
+      "branch_coverage_percent": 100.0
+    },
+    "stdevs": {
+      "time_seconds": 0.0032,
+      "python_heap_peak_mib": 0.0,
+      "peak_rss_mib": 0.3553,
+      "generated_tests": 0.0,
+      "branch_coverage_percent": 0.0
+    },
+    "benchmarks": [
+      {
+        "benchmark": "threshold",
+        "generated_tests": 4,
+        "covered_branches": 6,
+        "branch_coverage": 100.0,
+        "examples": [
+          {
+            "inputs": {
+              "x": 0
+            },
+            "result": 0,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": -16
+            },
+            "result": -1,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 7
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 22
+            },
+            "result": 3,
+            "path_length": null
+          }
+        ]
+      },
+      {
+        "benchmark": "pair_relation",
+        "generated_tests": 5,
+        "covered_branches": 8,
+        "branch_coverage": 100.0,
+        "examples": [
+          {
+            "inputs": {
+              "x": 0,
+              "y": 0
+            },
+            "result": 0,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 0,
+              "y": 10
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 14,
+              "y": 3
+            },
+            "result": 3,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": -2,
+              "y": -6
+            },
+            "result": 4,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 10,
+              "y": 0
+            },
+            "result": 1,
+            "path_length": null
+          }
+        ]
+      },
+      {
+        "benchmark": "loop_bucket",
+        "generated_tests": 20,
+        "covered_branches": 12,
+        "branch_coverage": 100.0,
+        "examples": [
+          {
+            "inputs": {
+              "x": 0,
+              "y": 0
+            },
+            "result": 0,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": -16,
+              "y": 0
+            },
+            "result": -1,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 0,
+              "y": -16
+            },
+            "result": -1,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 2,
+              "y": 0
+            },
+            "result": 0,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 2,
+              "y": 2
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 2,
+              "y": 1
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 2,
+              "y": 8
+            },
+            "result": 1,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 8,
+              "y": 1
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 2,
+              "y": 3
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 1,
+              "y": 4
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 2,
+              "y": 5
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 2,
+              "y": 6
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 2,
+              "y": 15
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 6,
+              "y": 5
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 4,
+              "y": 1
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 8,
+              "y": 5
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 6,
+              "y": 1
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 14,
+              "y": 8
+            },
+            "result": 1,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 8,
+              "y": 9
+            },
+            "result": 2,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 8,
+              "y": 11
+            },
+            "result": 2,
+            "path_length": null
+          }
+        ]
+      }
+    ]
+  },
+  "crosshair": {
+    "means": {
+      "time_seconds": 0.4955,
+      "python_heap_peak_mib": 0.124,
+      "peak_rss_mib": 19.5188,
+      "generated_tests": 14,
+      "branch_coverage_percent": 96.15
+    },
+    "stdevs": {
+      "time_seconds": 0.0102,
+      "python_heap_peak_mib": 0.0,
+      "peak_rss_mib": 0.118,
+      "generated_tests": 0.0,
+      "branch_coverage_percent": 0.0
+    },
+    "benchmarks": [
+      {
+        "benchmark": "threshold",
+        "generated_tests": 4,
+        "covered_branches": 6,
+        "branch_coverage": 100.0,
+        "examples": [
+          {
+            "inputs": {
+              "x": 0
+            },
+            "result": null,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 7
+            },
+            "result": null,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 21
+            },
+            "result": null,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": -6
+            },
+            "result": null,
+            "path_length": null
+          }
+        ]
+      },
+      {
+        "benchmark": "pair_relation",
+        "generated_tests": 5,
+        "covered_branches": 8,
+        "branch_coverage": 100.0,
+        "examples": [
+          {
+            "inputs": {
+              "x": 0,
+              "y": 11
+            },
+            "result": null,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 6,
+              "y": 4
+            },
+            "result": null,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 0,
+              "y": 10
+            },
+            "result": null,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 0,
+              "y": -9
+            },
+            "result": null,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": -12,
+              "y": -1
+            },
+            "result": null,
+            "path_length": null
+          }
+        ]
+      },
+      {
+        "benchmark": "loop_bucket",
+        "generated_tests": 5,
+        "covered_branches": 11,
+        "branch_coverage": 91.67,
+        "examples": [
+          {
+            "inputs": {
+              "x": 2,
+              "y": 3
+            },
+            "result": null,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 0,
+              "y": 0
+            },
+            "result": null,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 1,
+              "y": 7
+            },
+            "result": null,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": -1,
+              "y": 0
+            },
+            "result": null,
+            "path_length": null
+          },
+          {
+            "inputs": {
+              "x": 0,
+              "y": -1
+            },
+            "result": null,
+            "path_length": null
+          }
+        ]
+      }
+    ]
+  }
+}

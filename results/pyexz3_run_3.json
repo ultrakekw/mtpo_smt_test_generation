@@ -1,0 +1,262 @@
+{
+  "tool": "pyexz3",
+  "time_seconds": 0.1589,
+  "python_heap_peak_mib": 1.159,
+  "peak_rss_mib": 48.625,
+  "generated_tests": 29,
+  "branch_coverage_percent": 100.0,
+  "benchmarks": [
+    {
+      "benchmark": "threshold",
+      "generated_tests": 4,
+      "covered_branches": 6,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "x": 0
+          },
+          "result": 0,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": -16
+          },
+          "result": -1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 7
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 22
+          },
+          "result": 3,
+          "path_length": null
+        }
+      ]
+    },
+    {
+      "benchmark": "pair_relation",
+      "generated_tests": 5,
+      "covered_branches": 8,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "x": 0,
+            "y": 0
+          },
+          "result": 0,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 0,
+            "y": 10
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 14,
+            "y": 3
+          },
+          "result": 3,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": -2,
+            "y": -6
+          },
+          "result": 4,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 10,
+            "y": 0
+          },
+          "result": 1,
+          "path_length": null
+        }
+      ]
+    },
+    {
+      "benchmark": "loop_bucket",
+      "generated_tests": 20,
+      "covered_branches": 12,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "x": 0,
+            "y": 0
+          },
+          "result": 0,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": -16,
+            "y": 0
+          },
+          "result": -1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 0,
+            "y": -16
+          },
+          "result": -1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 2,
+            "y": 0
+          },
+          "result": 0,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 2,
+            "y": 2
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 2,
+            "y": 1
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 2,
+            "y": 8
+          },
+          "result": 1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 8,
+            "y": 1
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 2,
+            "y": 3
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 1,
+            "y": 4
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 2,
+            "y": 5
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 2,
+            "y": 6
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 2,
+            "y": 15
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 6,
+            "y": 5
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 4,
+            "y": 1
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 8,
+            "y": 5
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 6,
+            "y": 1
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 14,
+            "y": 8
+          },
+          "result": 1,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 8,
+            "y": 9
+          },
+          "result": 2,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "x": 8,
+            "y": 11
+          },
+          "result": 2,
+          "path_length": null
+        }
+      ]
+    }
+  ]
+}

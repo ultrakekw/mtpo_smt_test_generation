@@ -1,0 +1,239 @@
+{
+  "tool": "crosshair",
+  "suite": "industrial",
+  "skipped_benchmarks": [],
+  "time_seconds": 2.231,
+  "python_heap_peak_mib": 0.156,
+  "peak_rss_mib": 19.688,
+  "generated_tests": 24,
+  "branch_coverage_percent": 100.0,
+  "benchmarks": [
+    {
+      "benchmark": "fastapi_status_body",
+      "family": "industrial",
+      "scenario": "FastAPI: допустимость тела ответа для HTTP status code",
+      "generated_tests": 5,
+      "covered_branches": 8,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "status_code": 200
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "status_code": 0
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "status_code": 204
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "status_code": 304
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "status_code": 205
+          },
+          "result": null,
+          "path_length": null
+        }
+      ]
+    },
+    {
+      "benchmark": "flask_load_dotenv",
+      "family": "industrial",
+      "scenario": "Flask: интерпретация флага FLASK_SKIP_DOTENV",
+      "generated_tests": 4,
+      "covered_branches": 6,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "val": "no",
+            "default": false
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "val": "",
+            "default": true
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "val": "",
+            "default": false
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "val": "\u0001",
+            "default": false
+          },
+          "result": null,
+          "path_length": null
+        }
+      ]
+    },
+    {
+      "benchmark": "pip_archive_suffix",
+      "family": "industrial",
+      "scenario": "pip: распознавание архивного имени дистрибутива по суффиксу",
+      "generated_tests": 6,
+      "covered_branches": 10,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "name": "\u0001"
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ""
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".whl"
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".tar"
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".tlz"
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "name": ".tbz"
+          },
+          "result": null,
+          "path_length": null
+        }
+      ]
+    },
+    {
+      "benchmark": "werkzeug_server_name",
+      "family": "industrial",
+      "scenario": "Werkzeug: stripping standard ports from server names",
+      "generated_tests": 5,
+      "covered_branches": 8,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "scheme": "https",
+            "server_name": ""
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "scheme": "ws",
+            "server_name": ""
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "scheme": "",
+            "server_name": ""
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "scheme": "http",
+            "server_name": ":80"
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "scheme": "https",
+            "server_name": ":443"
+          },
+          "result": null,
+          "path_length": null
+        }
+      ]
+    },
+    {
+      "benchmark": "black_numeric_string",
+      "family": "industrial",
+      "scenario": "Black: различение случаев нормализации числовой строки",
+      "generated_tests": 4,
+      "covered_branches": 6,
+      "branch_coverage": 100.0,
+      "examples": [
+        {
+          "inputs": {
+            "text": "\u0000."
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "text": ""
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "text": "."
+          },
+          "result": null,
+          "path_length": null
+        },
+        {
+          "inputs": {
+            "text": "\u0000.\u0001"
+          },
+          "result": null,
+          "path_length": null
+        }
+      ]
+    }
+  ]
+}

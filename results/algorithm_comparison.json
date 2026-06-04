@@ -1,0 +1,3332 @@
+{
+  "generated_at": "2026-05-23T08:35:56",
+  "config": {
+    "suite": "all",
+    "runs": 1,
+    "max_iterations": 20,
+    "tools": [
+      "pyexz3",
+      "crosshair",
+      "mini"
+    ]
+  },
+  "tools": {
+    "pyexz3": {
+      "means": {
+        "time_seconds": 0.8072,
+        "python_heap_peak_mib": 1.314,
+        "peak_rss_mib": 65.406,
+        "generated_tests": 67.0,
+        "branch_coverage_percent": 100.0
+      },
+      "stdevs": {
+        "time_seconds": 0.0,
+        "python_heap_peak_mib": 0.0,
+        "peak_rss_mib": 0.0,
+        "generated_tests": 0.0,
+        "branch_coverage_percent": 0.0
+      },
+      "skipped_benchmarks": [],
+      "benchmarks": [
+        {
+          "benchmark": "threshold",
+          "family": "micro",
+          "scenario": "Линейная цепочка арифметических условий",
+          "generated_tests_mean": 4.0,
+          "covered_branches": 6,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "x": 0
+              },
+              "result": 0,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": -16
+              },
+              "result": -1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 7
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 22
+              },
+              "result": 3,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "pair_relation",
+          "family": "micro",
+          "scenario": "Вложенные ветви и нелинейное целочисленное ограничение",
+          "generated_tests_mean": 5.0,
+          "covered_branches": 8,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "x": 0,
+                "y": 0
+              },
+              "result": 0,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 0,
+                "y": 10
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 14,
+                "y": 3
+              },
+              "result": 3,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": -2,
+                "y": -6
+              },
+              "result": 4,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 10,
+                "y": 0
+              },
+              "result": 1,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "loop_bucket",
+          "family": "micro",
+          "scenario": "Ограниченный цикл и постусловие после итераций",
+          "generated_tests_mean": 20.0,
+          "covered_branches": 12,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "x": 0,
+                "y": 0
+              },
+              "result": 0,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": -16,
+                "y": 0
+              },
+              "result": -1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 0,
+                "y": -16
+              },
+              "result": -1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 2,
+                "y": 0
+              },
+              "result": 0,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 2,
+                "y": 2
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 2,
+                "y": 1
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 1,
+                "y": 8
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 8,
+                "y": 1
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 2,
+                "y": 3
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 1,
+                "y": 4
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 2,
+                "y": 5
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 1,
+                "y": 6
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 6,
+                "y": 12
+              },
+              "result": 1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 6,
+                "y": 5
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 4,
+                "y": 1
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 12,
+                "y": 9
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 6,
+                "y": 1
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 14,
+                "y": 8
+              },
+              "result": 1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 8,
+                "y": 9
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 8,
+                "y": 11
+              },
+              "result": 2,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "fastapi_status_body",
+          "family": "industrial",
+          "scenario": "FastAPI: допустимость тела ответа для HTTP status code",
+          "generated_tests_mean": 5.0,
+          "covered_branches": 8,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "status_code": 200
+              },
+              "result": 4,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "status_code": 0
+              },
+              "result": 0,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "status_code": 204
+              },
+              "result": 1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "status_code": 205
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "status_code": 304
+              },
+              "result": 3,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "flask_load_dotenv",
+          "family": "industrial",
+          "scenario": "Flask: интерпретация флага FLASK_SKIP_DOTENV",
+          "generated_tests_mean": 6.0,
+          "covered_branches": 6,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "val": "",
+                "default": true
+              },
+              "result": 1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "val": "A",
+                "default": true
+              },
+              "result": 3,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "val": "",
+                "default": false
+              },
+              "result": 0,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "val": "0",
+                "default": true
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "val": "false",
+                "default": true
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "val": "no",
+                "default": true
+              },
+              "result": 2,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "pip_archive_suffix",
+          "family": "industrial",
+          "scenario": "pip: распознавание архивного имени дистрибутива по суффиксу",
+          "generated_tests_mean": 14.0,
+          "covered_branches": 10,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "name": ""
+              },
+              "result": -1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": "A"
+              },
+              "result": 0,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".whl"
+              },
+              "result": 1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".zip"
+              },
+              "result": 1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".tar.gz"
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".tgz"
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".tar"
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".tar.bz2"
+              },
+              "result": 3,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".tbz"
+              },
+              "result": 3,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": "A.tar.xz"
+              },
+              "result": 4,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".txz"
+              },
+              "result": 4,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".tlz"
+              },
+              "result": 4,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".tar.lz"
+              },
+              "result": 4,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".tar.lzma"
+              },
+              "result": 4,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "werkzeug_server_name",
+          "family": "industrial",
+          "scenario": "Werkzeug: stripping standard ports from server names",
+          "generated_tests_mean": 9.0,
+          "covered_branches": 8,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "scheme": "",
+                "server_name": ""
+              },
+              "result": 0,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "scheme": "http",
+                "server_name": ""
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "scheme": "ws",
+                "server_name": ""
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "scheme": "https",
+                "server_name": ""
+              },
+              "result": 4,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "scheme": "wss",
+                "server_name": ""
+              },
+              "result": 4,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "scheme": "http",
+                "server_name": ":80"
+              },
+              "result": 1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "scheme": "ws",
+                "server_name": ":80"
+              },
+              "result": 1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "scheme": "https",
+                "server_name": ":443"
+              },
+              "result": 3,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "scheme": "wss",
+                "server_name": ":443"
+              },
+              "result": 3,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "black_numeric_string",
+          "family": "industrial",
+          "scenario": "Black: различение случаев нормализации числовой строки",
+          "generated_tests_mean": 4.0,
+          "covered_branches": 6,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "text": ""
+              },
+              "result": 0,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "text": "."
+              },
+              "result": 1,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "text": "B."
+              },
+              "result": 2,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "text": "A.B"
+              },
+              "result": 3,
+              "path_length": null
+            }
+          ]
+        }
+      ],
+      "raw_runs": [
+        {
+          "tool": "pyexz3",
+          "suite": "all",
+          "skipped_benchmarks": [],
+          "time_seconds": 0.8072,
+          "python_heap_peak_mib": 1.314,
+          "peak_rss_mib": 65.406,
+          "generated_tests": 67,
+          "branch_coverage_percent": 100.0,
+          "benchmarks": [
+            {
+              "benchmark": "threshold",
+              "family": "micro",
+              "scenario": "Линейная цепочка арифметических условий",
+              "generated_tests": 4,
+              "covered_branches": 6,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "x": 0
+                  },
+                  "result": 0,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": -16
+                  },
+                  "result": -1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 7
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 22
+                  },
+                  "result": 3,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "pair_relation",
+              "family": "micro",
+              "scenario": "Вложенные ветви и нелинейное целочисленное ограничение",
+              "generated_tests": 5,
+              "covered_branches": 8,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "result": 0,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 0,
+                    "y": 10
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 14,
+                    "y": 3
+                  },
+                  "result": 3,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": -2,
+                    "y": -6
+                  },
+                  "result": 4,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 10,
+                    "y": 0
+                  },
+                  "result": 1,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "loop_bucket",
+              "family": "micro",
+              "scenario": "Ограниченный цикл и постусловие после итераций",
+              "generated_tests": 20,
+              "covered_branches": 12,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "result": 0,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": -16,
+                    "y": 0
+                  },
+                  "result": -1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 0,
+                    "y": -16
+                  },
+                  "result": -1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 2,
+                    "y": 0
+                  },
+                  "result": 0,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 2,
+                    "y": 2
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 2,
+                    "y": 1
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 1,
+                    "y": 8
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 8,
+                    "y": 1
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 2,
+                    "y": 3
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 1,
+                    "y": 4
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 2,
+                    "y": 5
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 1,
+                    "y": 6
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 6,
+                    "y": 12
+                  },
+                  "result": 1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 6,
+                    "y": 5
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 4,
+                    "y": 1
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 12,
+                    "y": 9
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 6,
+                    "y": 1
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 14,
+                    "y": 8
+                  },
+                  "result": 1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 8,
+                    "y": 9
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 8,
+                    "y": 11
+                  },
+                  "result": 2,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "fastapi_status_body",
+              "family": "industrial",
+              "scenario": "FastAPI: допустимость тела ответа для HTTP status code",
+              "generated_tests": 5,
+              "covered_branches": 8,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "status_code": 200
+                  },
+                  "result": 4,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "status_code": 0
+                  },
+                  "result": 0,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "status_code": 204
+                  },
+                  "result": 1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "status_code": 205
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "status_code": 304
+                  },
+                  "result": 3,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "flask_load_dotenv",
+              "family": "industrial",
+              "scenario": "Flask: интерпретация флага FLASK_SKIP_DOTENV",
+              "generated_tests": 6,
+              "covered_branches": 6,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "val": "",
+                    "default": true
+                  },
+                  "result": 1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "val": "A",
+                    "default": true
+                  },
+                  "result": 3,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "val": "",
+                    "default": false
+                  },
+                  "result": 0,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "val": "0",
+                    "default": true
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "val": "false",
+                    "default": true
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "val": "no",
+                    "default": true
+                  },
+                  "result": 2,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "pip_archive_suffix",
+              "family": "industrial",
+              "scenario": "pip: распознавание архивного имени дистрибутива по суффиксу",
+              "generated_tests": 14,
+              "covered_branches": 10,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "name": ""
+                  },
+                  "result": -1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": "A"
+                  },
+                  "result": 0,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".whl"
+                  },
+                  "result": 1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".zip"
+                  },
+                  "result": 1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".tar.gz"
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".tgz"
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".tar"
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".tar.bz2"
+                  },
+                  "result": 3,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".tbz"
+                  },
+                  "result": 3,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": "A.tar.xz"
+                  },
+                  "result": 4,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".txz"
+                  },
+                  "result": 4,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".tlz"
+                  },
+                  "result": 4,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".tar.lz"
+                  },
+                  "result": 4,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".tar.lzma"
+                  },
+                  "result": 4,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "werkzeug_server_name",
+              "family": "industrial",
+              "scenario": "Werkzeug: stripping standard ports from server names",
+              "generated_tests": 9,
+              "covered_branches": 8,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "scheme": "",
+                    "server_name": ""
+                  },
+                  "result": 0,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "scheme": "http",
+                    "server_name": ""
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "scheme": "ws",
+                    "server_name": ""
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "scheme": "https",
+                    "server_name": ""
+                  },
+                  "result": 4,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "scheme": "wss",
+                    "server_name": ""
+                  },
+                  "result": 4,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "scheme": "http",
+                    "server_name": ":80"
+                  },
+                  "result": 1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "scheme": "ws",
+                    "server_name": ":80"
+                  },
+                  "result": 1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "scheme": "https",
+                    "server_name": ":443"
+                  },
+                  "result": 3,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "scheme": "wss",
+                    "server_name": ":443"
+                  },
+                  "result": 3,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "black_numeric_string",
+              "family": "industrial",
+              "scenario": "Black: различение случаев нормализации числовой строки",
+              "generated_tests": 4,
+              "covered_branches": 6,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "text": ""
+                  },
+                  "result": 0,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "text": "."
+                  },
+                  "result": 1,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "text": "B."
+                  },
+                  "result": 2,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "text": "A.B"
+                  },
+                  "result": 3,
+                  "path_length": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "crosshair": {
+      "means": {
+        "time_seconds": 2.567,
+        "python_heap_peak_mib": 0.191,
+        "peak_rss_mib": 20.469,
+        "generated_tests": 38.0,
+        "branch_coverage_percent": 98.44
+      },
+      "stdevs": {
+        "time_seconds": 0.0,
+        "python_heap_peak_mib": 0.0,
+        "peak_rss_mib": 0.0,
+        "generated_tests": 0.0,
+        "branch_coverage_percent": 0.0
+      },
+      "skipped_benchmarks": [],
+      "benchmarks": [
+        {
+          "benchmark": "threshold",
+          "family": "micro",
+          "scenario": "Линейная цепочка арифметических условий",
+          "generated_tests_mean": 4.0,
+          "covered_branches": 6,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "x": 0
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 7
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 21
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": -6
+              },
+              "result": null,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "pair_relation",
+          "family": "micro",
+          "scenario": "Вложенные ветви и нелинейное целочисленное ограничение",
+          "generated_tests_mean": 5.0,
+          "covered_branches": 8,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "x": 0,
+                "y": 11
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 6,
+                "y": 4
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 0,
+                "y": 10
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 0,
+                "y": -9
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": -12,
+                "y": -1
+              },
+              "result": null,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "loop_bucket",
+          "family": "micro",
+          "scenario": "Ограниченный цикл и постусловие после итераций",
+          "generated_tests_mean": 5.0,
+          "covered_branches": 11,
+          "branch_coverage_mean": 91.67,
+          "examples": [
+            {
+              "inputs": {
+                "x": 2,
+                "y": 3
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 0,
+                "y": 0
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 1,
+                "y": 7
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": -1,
+                "y": 0
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "x": 0,
+                "y": -1
+              },
+              "result": null,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "fastapi_status_body",
+          "family": "industrial",
+          "scenario": "FastAPI: допустимость тела ответа для HTTP status code",
+          "generated_tests_mean": 5.0,
+          "covered_branches": 8,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "status_code": 200
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "status_code": 0
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "status_code": 204
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "status_code": 304
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "status_code": 205
+              },
+              "result": null,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "flask_load_dotenv",
+          "family": "industrial",
+          "scenario": "Flask: интерпретация флага FLASK_SKIP_DOTENV",
+          "generated_tests_mean": 4.0,
+          "covered_branches": 6,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "val": "no",
+                "default": false
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "val": "",
+                "default": true
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "val": "",
+                "default": false
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "val": "\u0001",
+                "default": false
+              },
+              "result": null,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "pip_archive_suffix",
+          "family": "industrial",
+          "scenario": "pip: распознавание архивного имени дистрибутива по суффиксу",
+          "generated_tests_mean": 6.0,
+          "covered_branches": 10,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "name": "\u0001"
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ""
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".whl"
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".tar"
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".tlz"
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "name": ".tbz"
+              },
+              "result": null,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "werkzeug_server_name",
+          "family": "industrial",
+          "scenario": "Werkzeug: stripping standard ports from server names",
+          "generated_tests_mean": 5.0,
+          "covered_branches": 8,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "scheme": "https",
+                "server_name": ""
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "scheme": "ws",
+                "server_name": ""
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "scheme": "",
+                "server_name": ""
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "scheme": "http",
+                "server_name": ":80"
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "scheme": "https",
+                "server_name": ":443"
+              },
+              "result": null,
+              "path_length": null
+            }
+          ]
+        },
+        {
+          "benchmark": "black_numeric_string",
+          "family": "industrial",
+          "scenario": "Black: различение случаев нормализации числовой строки",
+          "generated_tests_mean": 4.0,
+          "covered_branches": 6,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "text": "\u0000."
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "text": ""
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "text": "."
+              },
+              "result": null,
+              "path_length": null
+            },
+            {
+              "inputs": {
+                "text": "\u0000.\u0001"
+              },
+              "result": null,
+              "path_length": null
+            }
+          ]
+        }
+      ],
+      "raw_runs": [
+        {
+          "tool": "crosshair",
+          "suite": "all",
+          "skipped_benchmarks": [],
+          "time_seconds": 2.567,
+          "python_heap_peak_mib": 0.191,
+          "peak_rss_mib": 20.469,
+          "generated_tests": 38,
+          "branch_coverage_percent": 98.44,
+          "benchmarks": [
+            {
+              "benchmark": "threshold",
+              "family": "micro",
+              "scenario": "Линейная цепочка арифметических условий",
+              "generated_tests": 4,
+              "covered_branches": 6,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "x": 0
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 7
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 21
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": -6
+                  },
+                  "result": null,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "pair_relation",
+              "family": "micro",
+              "scenario": "Вложенные ветви и нелинейное целочисленное ограничение",
+              "generated_tests": 5,
+              "covered_branches": 8,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "x": 0,
+                    "y": 11
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 6,
+                    "y": 4
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 0,
+                    "y": 10
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 0,
+                    "y": -9
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": -12,
+                    "y": -1
+                  },
+                  "result": null,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "loop_bucket",
+              "family": "micro",
+              "scenario": "Ограниченный цикл и постусловие после итераций",
+              "generated_tests": 5,
+              "covered_branches": 11,
+              "branch_coverage": 91.67,
+              "examples": [
+                {
+                  "inputs": {
+                    "x": 2,
+                    "y": 3
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 1,
+                    "y": 7
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": -1,
+                    "y": 0
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "result": null,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "fastapi_status_body",
+              "family": "industrial",
+              "scenario": "FastAPI: допустимость тела ответа для HTTP status code",
+              "generated_tests": 5,
+              "covered_branches": 8,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "status_code": 200
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "status_code": 0
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "status_code": 204
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "status_code": 304
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "status_code": 205
+                  },
+                  "result": null,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "flask_load_dotenv",
+              "family": "industrial",
+              "scenario": "Flask: интерпретация флага FLASK_SKIP_DOTENV",
+              "generated_tests": 4,
+              "covered_branches": 6,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "val": "no",
+                    "default": false
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "val": "",
+                    "default": true
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "val": "",
+                    "default": false
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "val": "\u0001",
+                    "default": false
+                  },
+                  "result": null,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "pip_archive_suffix",
+              "family": "industrial",
+              "scenario": "pip: распознавание архивного имени дистрибутива по суффиксу",
+              "generated_tests": 6,
+              "covered_branches": 10,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "name": "\u0001"
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ""
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".whl"
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".tar"
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".tlz"
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "name": ".tbz"
+                  },
+                  "result": null,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "werkzeug_server_name",
+              "family": "industrial",
+              "scenario": "Werkzeug: stripping standard ports from server names",
+              "generated_tests": 5,
+              "covered_branches": 8,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "scheme": "https",
+                    "server_name": ""
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "scheme": "ws",
+                    "server_name": ""
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "scheme": "",
+                    "server_name": ""
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "scheme": "http",
+                    "server_name": ":80"
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "scheme": "https",
+                    "server_name": ":443"
+                  },
+                  "result": null,
+                  "path_length": null
+                }
+              ]
+            },
+            {
+              "benchmark": "black_numeric_string",
+              "family": "industrial",
+              "scenario": "Black: различение случаев нормализации числовой строки",
+              "generated_tests": 4,
+              "covered_branches": 6,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "text": "\u0000."
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "text": ""
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "text": "."
+                  },
+                  "result": null,
+                  "path_length": null
+                },
+                {
+                  "inputs": {
+                    "text": "\u0000.\u0001"
+                  },
+                  "result": null,
+                  "path_length": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mini": {
+      "means": {
+        "time_seconds": 6.0883,
+        "python_heap_peak_mib": 0.291,
+        "peak_rss_mib": 111.203,
+        "generated_tests": 76.0,
+        "branch_coverage_percent": 100.0
+      },
+      "stdevs": {
+        "time_seconds": 0.0,
+        "python_heap_peak_mib": 0.0,
+        "peak_rss_mib": 0.0,
+        "generated_tests": 0.0,
+        "branch_coverage_percent": 0.0
+      },
+      "skipped_benchmarks": [],
+      "benchmarks": [
+        {
+          "benchmark": "threshold",
+          "family": "micro",
+          "scenario": "Линейная цепочка арифметических условий",
+          "generated_tests_mean": 6.0,
+          "covered_branches": 6,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "x": 0
+              },
+              "result": 0,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "x": -6
+              },
+              "result": -1,
+              "path_length": 1
+            },
+            {
+              "inputs": {
+                "x": 7
+              },
+              "result": 2,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "x": 21
+              },
+              "result": 3,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "x": -5
+              },
+              "result": 0,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "x": 8
+              },
+              "result": 0,
+              "path_length": 3
+            }
+          ]
+        },
+        {
+          "benchmark": "pair_relation",
+          "family": "micro",
+          "scenario": "Вложенные ветви и нелинейное целочисленное ограничение",
+          "generated_tests_mean": 6.0,
+          "covered_branches": 8,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "x": 0,
+                "y": 0
+              },
+              "result": 0,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "x": 20,
+                "y": -10
+              },
+              "result": 1,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "x": 9,
+                "y": 0
+              },
+              "result": 3,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "x": -6,
+                "y": -2
+              },
+              "result": 4,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "x": 5,
+                "y": 5
+              },
+              "result": 2,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "x": -18,
+                "y": -18
+              },
+              "result": 0,
+              "path_length": 3
+            }
+          ]
+        },
+        {
+          "benchmark": "loop_bucket",
+          "family": "micro",
+          "scenario": "Ограниченный цикл и постусловие после итераций",
+          "generated_tests_mean": 20.0,
+          "covered_branches": 12,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "x": 0,
+                "y": 0
+              },
+              "result": 0,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "x": -1,
+                "y": 0
+              },
+              "result": -1,
+              "path_length": 1
+            },
+            {
+              "inputs": {
+                "x": 0,
+                "y": -1
+              },
+              "result": -1,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "x": 1,
+                "y": 0
+              },
+              "result": 0,
+              "path_length": 4
+            },
+            {
+              "inputs": {
+                "x": 1,
+                "y": 1
+              },
+              "result": 2,
+              "path_length": 8
+            },
+            {
+              "inputs": {
+                "x": 2,
+                "y": 1
+              },
+              "result": 2,
+              "path_length": 7
+            },
+            {
+              "inputs": {
+                "x": 1,
+                "y": 3
+              },
+              "result": 2,
+              "path_length": 11
+            },
+            {
+              "inputs": {
+                "x": 3,
+                "y": 1
+              },
+              "result": 2,
+              "path_length": 11
+            },
+            {
+              "inputs": {
+                "x": 1,
+                "y": 2
+              },
+              "result": 2,
+              "path_length": 8
+            },
+            {
+              "inputs": {
+                "x": 2,
+                "y": 3
+              },
+              "result": 2,
+              "path_length": 10
+            },
+            {
+              "inputs": {
+                "x": 1,
+                "y": 5
+              },
+              "result": 2,
+              "path_length": 14
+            },
+            {
+              "inputs": {
+                "x": 4,
+                "y": 1
+              },
+              "result": 2,
+              "path_length": 10
+            },
+            {
+              "inputs": {
+                "x": 4,
+                "y": 3
+              },
+              "result": 2,
+              "path_length": 13
+            },
+            {
+              "inputs": {
+                "x": 3,
+                "y": 3
+              },
+              "result": 2,
+              "path_length": 14
+            },
+            {
+              "inputs": {
+                "x": 1,
+                "y": 4
+              },
+              "result": 2,
+              "path_length": 11
+            },
+            {
+              "inputs": {
+                "x": 2,
+                "y": 5
+              },
+              "result": 2,
+              "path_length": 13
+            },
+            {
+              "inputs": {
+                "x": 1,
+                "y": 7
+              },
+              "result": 1,
+              "path_length": 14
+            },
+            {
+              "inputs": {
+                "x": 5,
+                "y": 1
+              },
+              "result": 2,
+              "path_length": 14
+            },
+            {
+              "inputs": {
+                "x": 3,
+                "y": 2
+              },
+              "result": 2,
+              "path_length": 11
+            },
+            {
+              "inputs": {
+                "x": 5,
+                "y": 3
+              },
+              "result": 1,
+              "path_length": 14
+            }
+          ]
+        },
+        {
+          "benchmark": "fastapi_status_body",
+          "family": "industrial",
+          "scenario": "FastAPI: допустимость тела ответа для HTTP status code",
+          "generated_tests_mean": 7.0,
+          "covered_branches": 8,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "status_code": 200
+              },
+              "result": 4,
+              "path_length": 4
+            },
+            {
+              "inputs": {
+                "status_code": 100
+              },
+              "result": 0,
+              "path_length": 1
+            },
+            {
+              "inputs": {
+                "status_code": 204
+              },
+              "result": 1,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "status_code": 205
+              },
+              "result": 2,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "status_code": 304
+              },
+              "result": 3,
+              "path_length": 4
+            },
+            {
+              "inputs": {
+                "status_code": 207
+              },
+              "result": 4,
+              "path_length": 4
+            },
+            {
+              "inputs": {
+                "status_code": 269
+              },
+              "result": 4,
+              "path_length": 4
+            }
+          ]
+        },
+        {
+          "benchmark": "flask_load_dotenv",
+          "family": "industrial",
+          "scenario": "Flask: интерпретация флага FLASK_SKIP_DOTENV",
+          "generated_tests_mean": 8.0,
+          "covered_branches": 6,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "val": "",
+                "default": false
+              },
+              "result": 0,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "val": "0",
+                "default": false
+              },
+              "result": 2,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "val": "",
+                "default": true
+              },
+              "result": 1,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "val": "l",
+                "default": false
+              },
+              "result": 3,
+              "path_length": 4
+            },
+            {
+              "inputs": {
+                "val": "false",
+                "default": false
+              },
+              "result": 2,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "val": "no",
+                "default": false
+              },
+              "result": 2,
+              "path_length": 4
+            },
+            {
+              "inputs": {
+                "val": "3",
+                "default": false
+              },
+              "result": 3,
+              "path_length": 4
+            },
+            {
+              "inputs": {
+                "val": "t",
+                "default": false
+              },
+              "result": 3,
+              "path_length": 4
+            }
+          ]
+        },
+        {
+          "benchmark": "pip_archive_suffix",
+          "family": "industrial",
+          "scenario": "pip: распознавание архивного имени дистрибутива по суффиксу",
+          "generated_tests_mean": 15.0,
+          "covered_branches": 10,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "name": ""
+              },
+              "result": -1,
+              "path_length": 1
+            },
+            {
+              "inputs": {
+                "name": "0"
+              },
+              "result": 0,
+              "path_length": 13
+            },
+            {
+              "inputs": {
+                "name": ".whl"
+              },
+              "result": 1,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "name": ".zip"
+              },
+              "result": 1,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "name": ".tar.gz"
+              },
+              "result": 2,
+              "path_length": 4
+            },
+            {
+              "inputs": {
+                "name": ".tgz"
+              },
+              "result": 2,
+              "path_length": 5
+            },
+            {
+              "inputs": {
+                "name": ".tar"
+              },
+              "result": 2,
+              "path_length": 6
+            },
+            {
+              "inputs": {
+                "name": ".tar.bz2"
+              },
+              "result": 3,
+              "path_length": 7
+            },
+            {
+              "inputs": {
+                "name": ".tbz"
+              },
+              "result": 3,
+              "path_length": 8
+            },
+            {
+              "inputs": {
+                "name": ".tar.xz"
+              },
+              "result": 4,
+              "path_length": 9
+            },
+            {
+              "inputs": {
+                "name": ".txz"
+              },
+              "result": 4,
+              "path_length": 10
+            },
+            {
+              "inputs": {
+                "name": ".tlz"
+              },
+              "result": 4,
+              "path_length": 11
+            },
+            {
+              "inputs": {
+                "name": ".tar.lz"
+              },
+              "result": 4,
+              "path_length": 12
+            },
+            {
+              "inputs": {
+                "name": ".tar.lzma"
+              },
+              "result": 4,
+              "path_length": 13
+            },
+            {
+              "inputs": {
+                "name": "-"
+              },
+              "result": 0,
+              "path_length": 13
+            }
+          ]
+        },
+        {
+          "benchmark": "werkzeug_server_name",
+          "family": "industrial",
+          "scenario": "Werkzeug: stripping standard ports from server names",
+          "generated_tests_mean": 9.0,
+          "covered_branches": 8,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "scheme": "",
+                "server_name": ""
+              },
+              "result": 0,
+              "path_length": 4
+            },
+            {
+              "inputs": {
+                "scheme": "http",
+                "server_name": ""
+              },
+              "result": 2,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "scheme": "ws",
+                "server_name": ""
+              },
+              "result": 2,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "scheme": "https",
+                "server_name": ""
+              },
+              "result": 4,
+              "path_length": 4
+            },
+            {
+              "inputs": {
+                "scheme": "wss",
+                "server_name": ""
+              },
+              "result": 4,
+              "path_length": 5
+            },
+            {
+              "inputs": {
+                "scheme": "http",
+                "server_name": ":80"
+              },
+              "result": 1,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "scheme": "ws",
+                "server_name": ":80"
+              },
+              "result": 1,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "scheme": "https",
+                "server_name": ":443"
+              },
+              "result": 3,
+              "path_length": 4
+            },
+            {
+              "inputs": {
+                "scheme": "wss",
+                "server_name": ":443"
+              },
+              "result": 3,
+              "path_length": 5
+            }
+          ]
+        },
+        {
+          "benchmark": "black_numeric_string",
+          "family": "industrial",
+          "scenario": "Black: различение случаев нормализации числовой строки",
+          "generated_tests_mean": 5.0,
+          "covered_branches": 6,
+          "branch_coverage_mean": 100.0,
+          "examples": [
+            {
+              "inputs": {
+                "text": ""
+              },
+              "result": 0,
+              "path_length": 1
+            },
+            {
+              "inputs": {
+                "text": "."
+              },
+              "result": 1,
+              "path_length": 2
+            },
+            {
+              "inputs": {
+                "text": "9."
+              },
+              "result": 2,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "text": "1.15"
+              },
+              "result": 3,
+              "path_length": 3
+            },
+            {
+              "inputs": {
+                "text": "2."
+              },
+              "result": 2,
+              "path_length": 3
+            }
+          ]
+        }
+      ],
+      "raw_runs": [
+        {
+          "tool": "mini",
+          "suite": "all",
+          "skipped_benchmarks": [],
+          "time_seconds": 6.0883,
+          "python_heap_peak_mib": 0.291,
+          "peak_rss_mib": 111.203,
+          "generated_tests": 76,
+          "branch_coverage_percent": 100.0,
+          "benchmarks": [
+            {
+              "benchmark": "threshold",
+              "family": "micro",
+              "scenario": "Линейная цепочка арифметических условий",
+              "generated_tests": 6,
+              "covered_branches": 6,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "x": 0
+                  },
+                  "result": 0,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "x": -6
+                  },
+                  "result": -1,
+                  "path_length": 1
+                },
+                {
+                  "inputs": {
+                    "x": 7
+                  },
+                  "result": 2,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "x": 21
+                  },
+                  "result": 3,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "x": -5
+                  },
+                  "result": 0,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "x": 8
+                  },
+                  "result": 0,
+                  "path_length": 3
+                }
+              ]
+            },
+            {
+              "benchmark": "pair_relation",
+              "family": "micro",
+              "scenario": "Вложенные ветви и нелинейное целочисленное ограничение",
+              "generated_tests": 6,
+              "covered_branches": 8,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "result": 0,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "x": 20,
+                    "y": -10
+                  },
+                  "result": 1,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "x": 9,
+                    "y": 0
+                  },
+                  "result": 3,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "x": -6,
+                    "y": -2
+                  },
+                  "result": 4,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "x": 5,
+                    "y": 5
+                  },
+                  "result": 2,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "x": -18,
+                    "y": -18
+                  },
+                  "result": 0,
+                  "path_length": 3
+                }
+              ]
+            },
+            {
+              "benchmark": "loop_bucket",
+              "family": "micro",
+              "scenario": "Ограниченный цикл и постусловие после итераций",
+              "generated_tests": 20,
+              "covered_branches": 12,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "result": 0,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "x": -1,
+                    "y": 0
+                  },
+                  "result": -1,
+                  "path_length": 1
+                },
+                {
+                  "inputs": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "result": -1,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "x": 1,
+                    "y": 0
+                  },
+                  "result": 0,
+                  "path_length": 4
+                },
+                {
+                  "inputs": {
+                    "x": 1,
+                    "y": 1
+                  },
+                  "result": 2,
+                  "path_length": 8
+                },
+                {
+                  "inputs": {
+                    "x": 2,
+                    "y": 1
+                  },
+                  "result": 2,
+                  "path_length": 7
+                },
+                {
+                  "inputs": {
+                    "x": 1,
+                    "y": 3
+                  },
+                  "result": 2,
+                  "path_length": 11
+                },
+                {
+                  "inputs": {
+                    "x": 3,
+                    "y": 1
+                  },
+                  "result": 2,
+                  "path_length": 11
+                },
+                {
+                  "inputs": {
+                    "x": 1,
+                    "y": 2
+                  },
+                  "result": 2,
+                  "path_length": 8
+                },
+                {
+                  "inputs": {
+                    "x": 2,
+                    "y": 3
+                  },
+                  "result": 2,
+                  "path_length": 10
+                },
+                {
+                  "inputs": {
+                    "x": 1,
+                    "y": 5
+                  },
+                  "result": 2,
+                  "path_length": 14
+                },
+                {
+                  "inputs": {
+                    "x": 4,
+                    "y": 1
+                  },
+                  "result": 2,
+                  "path_length": 10
+                },
+                {
+                  "inputs": {
+                    "x": 4,
+                    "y": 3
+                  },
+                  "result": 2,
+                  "path_length": 13
+                },
+                {
+                  "inputs": {
+                    "x": 3,
+                    "y": 3
+                  },
+                  "result": 2,
+                  "path_length": 14
+                },
+                {
+                  "inputs": {
+                    "x": 1,
+                    "y": 4
+                  },
+                  "result": 2,
+                  "path_length": 11
+                },
+                {
+                  "inputs": {
+                    "x": 2,
+                    "y": 5
+                  },
+                  "result": 2,
+                  "path_length": 13
+                },
+                {
+                  "inputs": {
+                    "x": 1,
+                    "y": 7
+                  },
+                  "result": 1,
+                  "path_length": 14
+                },
+                {
+                  "inputs": {
+                    "x": 5,
+                    "y": 1
+                  },
+                  "result": 2,
+                  "path_length": 14
+                },
+                {
+                  "inputs": {
+                    "x": 3,
+                    "y": 2
+                  },
+                  "result": 2,
+                  "path_length": 11
+                },
+                {
+                  "inputs": {
+                    "x": 5,
+                    "y": 3
+                  },
+                  "result": 1,
+                  "path_length": 14
+                }
+              ]
+            },
+            {
+              "benchmark": "fastapi_status_body",
+              "family": "industrial",
+              "scenario": "FastAPI: допустимость тела ответа для HTTP status code",
+              "generated_tests": 7,
+              "covered_branches": 8,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "status_code": 200
+                  },
+                  "result": 4,
+                  "path_length": 4
+                },
+                {
+                  "inputs": {
+                    "status_code": 100
+                  },
+                  "result": 0,
+                  "path_length": 1
+                },
+                {
+                  "inputs": {
+                    "status_code": 204
+                  },
+                  "result": 1,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "status_code": 205
+                  },
+                  "result": 2,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "status_code": 304
+                  },
+                  "result": 3,
+                  "path_length": 4
+                },
+                {
+                  "inputs": {
+                    "status_code": 207
+                  },
+                  "result": 4,
+                  "path_length": 4
+                },
+                {
+                  "inputs": {
+                    "status_code": 269
+                  },
+                  "result": 4,
+                  "path_length": 4
+                }
+              ]
+            },
+            {
+              "benchmark": "flask_load_dotenv",
+              "family": "industrial",
+              "scenario": "Flask: интерпретация флага FLASK_SKIP_DOTENV",
+              "generated_tests": 8,
+              "covered_branches": 6,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "val": "",
+                    "default": false
+                  },
+                  "result": 0,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "val": "0",
+                    "default": false
+                  },
+                  "result": 2,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "val": "",
+                    "default": true
+                  },
+                  "result": 1,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "val": "l",
+                    "default": false
+                  },
+                  "result": 3,
+                  "path_length": 4
+                },
+                {
+                  "inputs": {
+                    "val": "false",
+                    "default": false
+                  },
+                  "result": 2,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "val": "no",
+                    "default": false
+                  },
+                  "result": 2,
+                  "path_length": 4
+                },
+                {
+                  "inputs": {
+                    "val": "3",
+                    "default": false
+                  },
+                  "result": 3,
+                  "path_length": 4
+                },
+                {
+                  "inputs": {
+                    "val": "t",
+                    "default": false
+                  },
+                  "result": 3,
+                  "path_length": 4
+                }
+              ]
+            },
+            {
+              "benchmark": "pip_archive_suffix",
+              "family": "industrial",
+              "scenario": "pip: распознавание архивного имени дистрибутива по суффиксу",
+              "generated_tests": 15,
+              "covered_branches": 10,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "name": ""
+                  },
+                  "result": -1,
+                  "path_length": 1
+                },
+                {
+                  "inputs": {
+                    "name": "0"
+                  },
+                  "result": 0,
+                  "path_length": 13
+                },
+                {
+                  "inputs": {
+                    "name": ".whl"
+                  },
+                  "result": 1,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "name": ".zip"
+                  },
+                  "result": 1,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "name": ".tar.gz"
+                  },
+                  "result": 2,
+                  "path_length": 4
+                },
+                {
+                  "inputs": {
+                    "name": ".tgz"
+                  },
+                  "result": 2,
+                  "path_length": 5
+                },
+                {
+                  "inputs": {
+                    "name": ".tar"
+                  },
+                  "result": 2,
+                  "path_length": 6
+                },
+                {
+                  "inputs": {
+                    "name": ".tar.bz2"
+                  },
+                  "result": 3,
+                  "path_length": 7
+                },
+                {
+                  "inputs": {
+                    "name": ".tbz"
+                  },
+                  "result": 3,
+                  "path_length": 8
+                },
+                {
+                  "inputs": {
+                    "name": ".tar.xz"
+                  },
+                  "result": 4,
+                  "path_length": 9
+                },
+                {
+                  "inputs": {
+                    "name": ".txz"
+                  },
+                  "result": 4,
+                  "path_length": 10
+                },
+                {
+                  "inputs": {
+                    "name": ".tlz"
+                  },
+                  "result": 4,
+                  "path_length": 11
+                },
+                {
+                  "inputs": {
+                    "name": ".tar.lz"
+                  },
+                  "result": 4,
+                  "path_length": 12
+                },
+                {
+                  "inputs": {
+                    "name": ".tar.lzma"
+                  },
+                  "result": 4,
+                  "path_length": 13
+                },
+                {
+                  "inputs": {
+                    "name": "-"
+                  },
+                  "result": 0,
+                  "path_length": 13
+                }
+              ]
+            },
+            {
+              "benchmark": "werkzeug_server_name",
+              "family": "industrial",
+              "scenario": "Werkzeug: stripping standard ports from server names",
+              "generated_tests": 9,
+              "covered_branches": 8,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "scheme": "",
+                    "server_name": ""
+                  },
+                  "result": 0,
+                  "path_length": 4
+                },
+                {
+                  "inputs": {
+                    "scheme": "http",
+                    "server_name": ""
+                  },
+                  "result": 2,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "scheme": "ws",
+                    "server_name": ""
+                  },
+                  "result": 2,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "scheme": "https",
+                    "server_name": ""
+                  },
+                  "result": 4,
+                  "path_length": 4
+                },
+                {
+                  "inputs": {
+                    "scheme": "wss",
+                    "server_name": ""
+                  },
+                  "result": 4,
+                  "path_length": 5
+                },
+                {
+                  "inputs": {
+                    "scheme": "http",
+                    "server_name": ":80"
+                  },
+                  "result": 1,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "scheme": "ws",
+                    "server_name": ":80"
+                  },
+                  "result": 1,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "scheme": "https",
+                    "server_name": ":443"
+                  },
+                  "result": 3,
+                  "path_length": 4
+                },
+                {
+                  "inputs": {
+                    "scheme": "wss",
+                    "server_name": ":443"
+                  },
+                  "result": 3,
+                  "path_length": 5
+                }
+              ]
+            },
+            {
+              "benchmark": "black_numeric_string",
+              "family": "industrial",
+              "scenario": "Black: различение случаев нормализации числовой строки",
+              "generated_tests": 5,
+              "covered_branches": 6,
+              "branch_coverage": 100.0,
+              "examples": [
+                {
+                  "inputs": {
+                    "text": ""
+                  },
+                  "result": 0,
+                  "path_length": 1
+                },
+                {
+                  "inputs": {
+                    "text": "."
+                  },
+                  "result": 1,
+                  "path_length": 2
+                },
+                {
+                  "inputs": {
+                    "text": "9."
+                  },
+                  "result": 2,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "text": "1.15"
+                  },
+                  "result": 3,
+                  "path_length": 3
+                },
+                {
+                  "inputs": {
+                    "text": "2."
+                  },
+                  "result": 2,
+                  "path_length": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

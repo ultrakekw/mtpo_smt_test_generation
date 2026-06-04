@@ -1,0 +1,41 @@
+#############
+## Python
+#############
+
+*.py[co]
+
+# pyenv
+.python-version
+.venv/
+
+#############
+## Windows detritus
+#############
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac crap
+.DS_Store
+
+queries/
+c_input.py
+runtime/
+
+# VSCode
+.vscode/
+
+# Test environment
+script.sh
+ignore/
+*.csv
+*.out
+paper_statistics*
+project_statistics*
